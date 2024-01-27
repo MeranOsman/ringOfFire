@@ -131,8 +131,5 @@
       }
     }
   },
-  "defaultProject": "ringoffire",
-  "cli": {
-    "analytics": false
-  }
+  "defaultProject": "ringoffire"
 }
