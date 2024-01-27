@@ -1,14 +1,19 @@
-import { Component, Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-player',
-  standalone: true,
-  imports: [],
   templateUrl: './player.component.html',
-  styleUrl: './player.component.scss'
+  styleUrls: ['./player.component.scss']
 })
-export class PlayerComponent {
+export class PlayerComponent implements OnInit {
 
-  @Input() name: any;
+  @Input() name;
+  @Input() image = '1.webp';
   @Input() playerActive: boolean = false;
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
 }
