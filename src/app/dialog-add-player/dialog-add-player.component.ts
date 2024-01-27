@@ -12,6 +12,7 @@ export class DialogAddPlayerComponent implements OnInit {
   constructor(public dialogRef: MatDialogRef<DialogAddPlayerComponent>) { }
 
   ngOnInit(): void {
+    
   }
 
   onNoClick() {
